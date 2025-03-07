@@ -16,6 +16,9 @@
     realizar_transaccion --> standby: Ha elegido finalizar.
     @enduml
 
+![image](https://github.com/user-attachments/assets/f09cd47b-2a87-4c62-b70d-e81c8d413bee)
+
+
 ## Funcionamiento
 - Está en stand by hasta que el usuario interectúe, donde este introduce la tarjeta, y si se valida se continuará con el proceso, pidiendo un pin.
 - Si el pin da error, tendrá 3 oportunidades, pudiendo cancelar el proceso antes de que terminen dichas 3 oportunidades.
